@@ -1,0 +1,487 @@
+<div class="row mt-4" id="body-row">
+  <!-- MAIN -->
+  <div class="container-fluid  mt-5 py-3" id="page1" style="display: block;">
+      <div class="row">
+          <div class="col center-block">
+              <h4 class="my-3">Run Sample case</h4>
+              <div class="form-group col-md-6">
+                  <label for="inputState">State</label>
+                  <select id="inputState1" class="form-control">
+                      <option selected="">Choose</option>
+                      <option value="1">Decision Flow</option>
+                      <option value="2">Decision View</option>
+                  </select>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col ">
+              <h4 class="my-3">Run Pre-populated case</h4>
+              <div class="form-group col-md-6">
+                  <label for="inputState">State</label>
+                  <select id="inputState2" class="form-control">
+                      <option selected="">Choose</option>
+                      <option value="3">Decision Flow</option>
+                      <option value="4">Decision View</option>
+                  </select>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col ">
+              <h4 class="my-3">Run a new case</h4>
+              <div class="form-group col-md-6">
+                  <label for="inputState">State</label>
+                  <select id="inputState3" class="form-control">
+                      <option selected="">Choose</option>
+                      <option value="5">Decision Flow</option>
+                      <option value="6">Decision View</option>
+                  </select>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container mt-5" id="page2" style="display: none;">
+      <h3 class="text-center mb-5">Policy Renewal Form</h3>
+      <form class="col-10">
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label" id="InsuredBoardChangeLabel">Insured Board Change </label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredBoardChange" placeholder="Insured Board hange">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label"> CEO Change</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredCEOChange" placeholder=" CEO Change">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label"> Location Construction</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredLocationConstruction" placeholder="Board 
+  Location Construction">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Location Occupied Square Footage</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredLocationOccupiedSquareFootage" placeholder="Location Occupied Square Footage">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Location Zip</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredLocationZip5" placeholder="Insured Location Zip">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Insured Majority Stockholder</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredMajorityStockholder" placeholder="Insured Majority Stockholder">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Insured Minority Stockholder</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredMinorityStockholder" placeholder="InsuredMinorityStockholder">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Location State Category</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="LocationStateCategory" placeholder="Location State Category">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Package Discount</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PackageDiscount" placeholder="Package Discount">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Package Grade</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PackageGrade" placeholder="Package Grade">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Policy Annual Premium</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PolicyAnnualPremium" placeholder="Policy Annual Premium">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Policy Discontinued Agent</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PolicyDiscontinuedAgent" placeholder="Policy Discontinued Agent">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Policy Grade</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PolicyGrade" placeholder="Policy Grade">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Policy Manual Under writing Indicator</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PolicyManualUnderwritingIndicator" placeholder="Policy Manual Under writing Indicator">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Policy Pricing Tier</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PolicyPricingTier" placeholder="Policy Pricing Tier">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Previous Construction</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PreviousConstruction" placeholder="Previous Construction">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Previous Occupied Square Footage</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PreviousOccupiedSquareFootage" placeholder="Previous Occupied Square Footage">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Previous Zip5</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PreviousZip5" placeholder="Previous Zip5">
+              </div>
+          </div>
+
+
+          <div class="form-group row">
+              <div class="col-sm-6">
+                  <button type="submit" id="formBTN" class="btn btn-primary">Submit</button>
+              </div>
+          </div>
+      </form>
+  </div>
+  <script id="decisionId" type="text/x-handlebars-template">
+
+  <div class="col mt-5 py-3" id="page3" style="display:none">
+      <div>
+          <div id="dvjson"></div>
+          <button id='DLtoExcel' class="btn btn-danger">Export Data to Excel</button>
+      </div>
+      {{#trace}}
+      <p><b>InsuredMajorOwnershipChange:</b> {{Root.InsuredMajorOwnershipChange}}</p>
+      <p><b>Policy Discount:</b> {{Root.PolicyDiscount}}</p>
+      <p><b>Policy Pricing Within Bounds:</b> {{Root.PolicyPricingWithinBounds}}</p>
+      <p><b>Policy Renewal Method:</b> {{Root.PolicyRenewalMethod}}</p>
+      <p><b>Policy Underwriting Risk:</b> {{Root.PolicyUnderwritingRisk}}</p>
+      <p><b>Insured Major Location Change:</b> {{Root.InsuredMajorLocationChange}}</p>
+      <h5>Policy Renewal Method</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.PolicyRenewalMethod.conclusionValue}}</p>
+      <hr>
+      <h5>Insured Major Ownership Change</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.InsuredMajorOwnershipChange.conclusionValue}}</p>
+
+      <hr>
+      <h5>Policy Under writing Risk</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.PolicyUnderwritingRisk.conclusionValue}}</p>
+
+      <hr>
+      <h5>Insured Major Location Change</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.InsuredMajorLocationChange.conclusionValue}}</p>
+
+      <hr>
+      <h5>Policy Discount</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.InsuredMajorLocationChange.conclusionValue}}</p>
+ 
+      <hr>
+      <h5>Policy Pricing Within Bounds</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.InsuredMajorLocationChange.conclusionValue}}</p>
+
+      <hr>
+      {{/trace}}
+
+      <h4>
+          Executed Version {{executedVersion}}
+      </h4>
+      {{#executionResults}}
+      {{#each PolicyRenewalMethod.Base.[1.0]}}
+      <p><b>conclusionName </b>{{conclusion.conclusionName}}</p>
+      <p><b>conclusionName </b>{{conclusion.conclusionValue}}</p>
+
+      <hr>
+      <p><b>Insured Major Ownership Change: </b>{{trace.Root.InsuredMajorOwnershipChange}}</p>
+      <p><b>Policy Renewal Method: </b>{{trace.Root.PolicyRenewalMethod}}</p>
+      <p><b>Policy Discount: </b>{{trace.Root.PolicyDiscount}}</p>
+      <p><b>Insured Major Location Change: </b>{{trace.Root.InsuredMajorLocationChange}}</p>
+      <p><b>Policy Pricing Within Bounds: </b>{{trace.Root.PolicyPricingWithinBounds}}</p>
+      <p><b>Policy Under writing Risk: </b>{{trace.Root.PolicyUnderwritingRisk}}</p>
+      <p><b>conclusion Value: </b>{{trace.Root.factTypeDetails.PolicyRenewalMethod.conclusionValue}}</p>
+      <h5>Policy Renewal Method</h5>
+
+      <hr>
+      <h5>Policy Under writing Risk</h5>
+      <p><b>conclusion Value: </b>{{trace.Root.factTypeDetails.PolicyUnderwritingRisk.conclusionValue}}</p>
+
+      <hr>
+      <h5>Policy Under writing Risk</h5>
+      <p><b>conclusion Value: </b>{{trace.Root.factTypeDetails.PolicyUnderwritingRisk.conclusionValue}}</p>
+
+      <hr>
+      <h5>Insured Major Location Change</h5>
+      <p><b>conclusion Value: </b>{{trace.Root.factTypeDetails.InsuredMajorLocationChange.conclusionValue}}</p>
+
+      <hr>
+      <h5>Policy Discount</h5>
+      <p><b>conclusion Value: </b>{{trace.Root.factTypeDetails.PolicyDiscount.conclusionValue}}</p>
+
+      <hr>
+      <h5>Policy Pricing Within Bounds</h5>
+      <p><b>conclusion Value: </b>{{trace.Root.factTypeDetails.PolicyPricingWithinBounds.conclusionValue}}</p>
+      
+      {{/each}}
+      {{/executionResults}}
+  </div>
+  </script>
+  <script id="decisionIc" type="text/x-handlebars-template">
+  <div class="col mt-5 py-3" id="page4" style="display:none">
+      <div>
+          <div id="dvjson"></div>
+          <button id='DLtoExcel' class="btn btn-danger">Export Data to Excel</button>
+      </div>
+      {{#conclusion}}
+      <p> <b>{{conclusionName}}</b> {{conclusionValue}}</p>
+      {{#each rowHits}}
+      <hr>
+      <p><b>Informational:</b> {{messages.Informational}}</p>
+      {{/each}}
+    <hr>
+  
+      {{/conclusion}}
+      {{#trace}}
+      <p><b>Insured Major Ownership Change: </b>{{Root.InsuredMajorOwnershipChange}}</p>
+      <p><b>Policy Renewal Method: </b>{{Root.PolicyRenewalMethod}}</p>
+      <p><b>Policy Discount: </b>{{Root.PolicyDiscount}}</p>
+      <p><b>Insured Major Location Change: </b>{{Root.InsuredMajorLocationChange}}</p>
+      <p><b>Policy Pricing Within Bounds: </b>{{Root.PolicyPricingWithinBounds}}</p>
+      <p><b>Policy Under writing Risk: </b>{{Root.PolicyUnderwritingRisk}}</p>
+      <h5>Policy Renewal Method</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.PolicyRenewalMethod.conclusionValue}}</p>
+      <hr>
+      <h5>Policy Under writing Risk</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.PolicyUnderwritingRisk.conclusionValue}}</p>
+      <hr>
+      <h5>Insured Major Location Change</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.InsuredMajorLocationChange.conclusionValue}}</p>
+      <hr>
+      <h5>Policy Discount</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.PolicyDiscount.conclusionValue}}</p>
+      <hr>
+      <h5>Policy Pricing Within Bounds</h5>
+      <p><b>conclusion Value: </b>{{Root.factTypeDetails.PolicyPricingWithinBounds.conclusionValue}}</p>
+      <hr>
+      {{/trace}}
+  </div>
+  </script>
+
+
+  <div class="container mt-5" id="page7" style="display: none;">
+      <h3 class="text-center mb-5">Policy Renewal Form</h3>
+      <form id="newCaseFOrm" class="col-10">
+          <h5>Artifact Information</h5>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label"> Release Name</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="releaseName1" placeholder="Release Name">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Tag Name</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="tagName1" placeholder="Tag Name">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">name</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="name1" placeholder="name">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Artifact Type</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="artifactType1" placeholder="Artifact Type">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Version</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="version1" placeholder="Version">
+              </div>
+          </div>
+          <div class="form-group row" id="viewname" style="display:none">
+              <label class="col-sm-6 col-form-label">ViewName</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="viewName1" placeholder="View Name">
+              </div>
+          </div>
+
+          <h5>Execution Inputs</h5>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label"> Board Change</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredBoardChange1" placeholder="Insured Board hange">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label"> CEO Change</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredCEOChange1" placeholder=" CEO Change">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label"> Location Construction</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredLocationConstruction1" placeholder="Board 
+      Location Construction">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Location Occupied Square Footage</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredLocationOccupiedSquareFootage1" placeholder="Location Occupied Square Footage">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Location Zip</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredLocationZip51" placeholder="Insured Location Zip">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Insured Majority Stockholder</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredMajorityStockholder1" placeholder="Insured Majority Stockholder">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Insured Minority Stockholder</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="InsuredMinorityStockholder1" placeholder="InsuredMinorityStockholder">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Location State Category</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="LocationStateCategory1" placeholder="Location State Category">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Package Discount</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PackageDiscount1" placeholder="Package Discount">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Package Grade</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PackageGrade1" placeholder="Package Grade">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Policy Annual Premium</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PolicyAnnualPremium1" placeholder="Policy Annual Premium">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Policy Discontinued Agent</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PolicyDiscontinuedAgent1" placeholder="Policy Discontinued Agent">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Policy Grade</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PolicyGrade1" placeholder="Policy Grade">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Policy Manual Under writing Indicator</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PolicyManualUnderwritingIndicator1" placeholder="Policy Manual Under writing Indicator">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Policy Pricing Tier</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PolicyPricingTier1" placeholder="Policy Pricing Tier">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Previous Construction</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PreviousConstruction1" placeholder="Previous Construction">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Previous Occupied Square Footage</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PreviousOccupiedSquareFootage1" placeholder="Previous Occupied Square Footage">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Previous Zip5</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="PreviousZip51" placeholder="Previous Zip5">
+              </div>
+          </div>
+          <h5>Execution Configuration</h5>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Decision View Fact Type Fetch Strategy</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="decisionViewFactTypeFetchStrategy1" placeholder="Decision View Fact Type Fetch Strategy">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Fact Type Message Fetch Strategy</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="factTypeMessageFetchStrategy1" placeholder="Fact Type Message Fetch Strategy">
+              </div>
+          </div>
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Flow Fact Type Fetch Strategy</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="flowFactTypeFetchStrategy1" placeholder="Flow Fact Type Fetch Strategy">
+              </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="col-sm-6 col-form-label">Input Must Belong To Fact Types In Manifest</label>
+              <div class="col-sm-6">
+                  <input type="text" class="form-control" id="inputMustBelongToFactTypesInManifest1" placeholder="Input Must Belong To Fact Types In Manifest">
+              </div>
+          </div>
+
+
+          <div class="form-group row">
+              <div class="col-sm-6">
+                  <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+          </div>
+      </form>
+  </div>
+</div>
